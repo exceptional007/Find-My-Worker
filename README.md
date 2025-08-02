@@ -45,8 +45,7 @@ Customers can search for workers based on their requirements, while workers can 
 
 ## 🌐 Live Demo
 
-> _If deployed, add your live demo link here._
-> [Live Demo](#) <!-- Replace # with your deployed URL -->
+> [Live Demo](https://find-my-worker-fmy.vercel.app/) <!-- Replace # with your deployed URL -->
 
 ---
 
@@ -158,7 +157,6 @@ Open your browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 ## 📚 API Endpoints (Sample)
 
-> _Add or update as per your actual API routes._
 
 | Endpoint                | Method | Description                       |
 |-------------------------|--------|-----------------------------------|
@@ -208,9 +206,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📬 Contact
 
-- **Author:** exceptional007
+- **Author:** Akshhat Srivastava
 - **GitHub:** [exceptional007](https://github.com/exceptional007)
-- **Email:** your-email@example.com
+- **Email:** akshhatsri7843@gmail.com
 
 ---
 
@@ -220,124 +218,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🛠️ Tech Stack
 
-- **Backend:** Django, SQLite
-- **Frontend:** HTML, CSS (custom styles), Django Templates
-- **Deployment:** Vercel (see `vercel.json`)
-
----
-
-## 📂 Folder Structure
-
-```
-Find_My_Worker/
-│   db.sqlite3
-│   manage.py
-│   requirements.txt
-│   vercel.json
-│
-├── customer/
-│   ├── models.py
-│   ├── views.py
-│   ├── forms.py
-│   ├── urls.py
-│   └── templates/
-│       ├── search_workers.html
-│       └── worker_dashboard.html
-│
-├── worker/
-│   ├── models.py
-│   ├── views.py
-│   ├── forms.py
-│   ├── urls.py
-│   └── templates/
-│
-├── Find_My_Worker/
-│   ├── settings.py
-│   ├── urls.py
-│   └── views.py
-│
-├── static/
-│   ├── css/
-│   └── photos/
-│
-├── media/
-│   └── photos/
-│
-└── templates/
-    ├── about_us.html
-    ├── contact_us.html
-    ├── layout.html
-    └── layout_2.html
-```
-
----
-
-## ⚙️ Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/exceptional007/Find-My-Worker.git
-cd Find-My-Worker/Find_My_Worker
-```
-
-### 2. Create a Virtual Environment
-```bash
-python -m venv venv
-venv\Scripts\activate  # On Windows
-# source venv/bin/activate  # On Linux/Mac
-```
-
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Apply Migrations
-```bash
-python manage.py migrate
-```
-
-### 5. Run the Development Server
-```bash
-python manage.py runserver
-```
-
-### 6. Access the App
-Open your browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
-
----
-
-## 🖼️ Screenshots
-
-<p align="center">
-  <img src="static/photos/FIND MY WORKER.png" alt="Home Page" width="400"/>
-  <img src="static/photos/worker_logo.png" alt="Worker Logo" width="200"/>
-</p>
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 📬 Contact
-
-- **Author:** exceptional007
-- **GitHub:** [exceptional007](https://github.com/exceptional007)
-- **Email:** your-email@example.com
-
----
-
-<p align="center">
-  <b>Made with ❤️ using Django</b>
-</p>
